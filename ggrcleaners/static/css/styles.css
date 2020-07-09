@@ -10631,3 +10631,8 @@ h4.stretch {
   color: black;
   font-weight: 550;
 }
+
+.timeline > li:after, .timeline > li:before {
+  display: none!important;
+  content:none!important;
+}
