@@ -31,11 +31,9 @@ def contact_us(request):
             "GGRC Contact Us",
             content,
             "{}<{}>".format(name, email),
-            ['jared.tangir@gmail.com'],
-            # ['office@ggrcleaners.com'],
+            ['office@ggrcleaners.com'],
             fail_silently=False,
         )
-        print("email sent")
         data["form_is_valid"] = True
     else:
         data["form_is_valid"] = False

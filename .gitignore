@@ -5,7 +5,7 @@
 __pycache__
 db.sqlite3
 media
-lovenotevideo/local_settings.py 
+ggrcleaners/local_settings.py 
 videokit-temp/
 temp_zip_files/
 celerybeat.pid

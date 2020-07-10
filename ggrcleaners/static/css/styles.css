@@ -10114,7 +10114,7 @@ img::-moz-selection {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-size: 1.25em;
+    font-size: 1.05em;
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
@@ -10127,7 +10127,7 @@ img::-moz-selection {
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
+    font-size: 1.05em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
@@ -10635,4 +10635,9 @@ h4.stretch {
 .timeline > li:after, .timeline > li:before {
   display: none!important;
   content:none!important;
+}
+
+.careers {
+  line-height: 1.25;
+  font-size: .9rem;
 }
