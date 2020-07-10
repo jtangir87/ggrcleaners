@@ -667,6 +667,9 @@ $(function () {
             success: function (data) {
                 if (data.form_is_valid) {
                     $("#modal-contact-us-success").modal("show");
+                    $( '#contactForm' ).each(function(){
+                        this.reset();
+                    });
                 }
             }
         });
