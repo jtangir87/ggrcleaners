@@ -10632,11 +10632,12 @@ h4.stretch {
   font-weight: 550;
 }
 
+@media(min-width:800px){
 .timeline > li:after, .timeline > li:before {
   display: none!important;
   content:none!important;
 }
-
+}
 .careers {
   line-height: 1.25;
   font-size: .9rem;
